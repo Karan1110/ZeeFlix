@@ -4,7 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2"
+    "config": "^3.3.9",
+    "express": "^4.18.2",
+    "supertest": "^6.3.3",
+    "winston": "^3.8.2"
   },
   "directories": {
     "test": "jest --watchAll"
@@ -13,7 +16,7 @@
     "jest": "22.2.2"
   },
   "scripts": {
-    "run" : "nodemon index.js",
-    "test": "jest --watchAll"
+    "run": "nodemon index.js",
+    "test": "jest --watchAll --verbose"
   }
 }
